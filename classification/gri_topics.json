@@ -1,0 +1,151 @@
+{
+  "E": {
+    "categoryLabel": "Môi trường (Environment)",
+    "topics": [
+      {
+        "key": "financedEmissions",
+        "label": "Phát thải được tài trợ"
+      },
+      {
+        "key": "climateRisk",
+        "label": "Rủi ro Khí hậu",
+        "subtopics": [
+          {
+            "key": "physicalRisk",
+            "label": "Rủi ro Vật lý"
+          },
+          {
+            "key": "transitionRisk",
+            "label": "Rủi ro Chuyển đổi"
+          }
+        ]
+      },
+      {
+        "key": "sustainableFinance",
+        "label": "Cơ hội & Tài chính Bền vững",
+        "subtopics": [
+          {
+            "key": "greenFinancing",
+            "label": "Tài chính Xanh"
+          },
+          {
+            "key": "greenBonds",
+            "label": "Trái phiếu Xanh/Xã hội/Bền vững"
+          }
+        ]
+      },
+      {
+        "key": "operationalFootprint",
+        "label": "Dấu chân Hoạt động"
+      },
+      {
+        "key": "biodiversity",
+        "label": "Vốn Tự nhiên & Đa dạng Sinh học"
+      }
+    ]
+  },
+  "S": {
+    "categoryLabel": "Xã hội (Social)",
+    "topics": [
+      {
+        "groupKey": "customerRelated",
+        "groupLabel": "Liên quan đến Khách hàng",
+        "subtopics": [
+          {
+            "key": "financialInclusion",
+            "label": "Tài chính Toàn diện"
+          },
+          {
+            "key": "dataSecurity",
+            "label": "Bảo mật Dữ liệu & Quyền riêng tư"
+          },
+          {
+            "key": "responsibleSelling",
+            "label": "Bán hàng Có trách nhiệm & Bảo vệ Người tiêu dùng"
+          },
+          {
+            "key": "accessAndAffordability",
+            "label": "Tiếp cận và Khả năng chi trả"
+          }
+        ]
+      },
+      {
+        "groupKey": "employeeRelated",
+        "groupLabel": "Liên quan đến Nhân viên",
+        "subtopics": [
+          {
+            "key": "talentManagement",
+            "label": "Thu hút & Giữ chân Nhân tài"
+          },
+          {
+            "key": "dei",
+            "label": "Đa dạng, Công bằng & Hòa nhập (DE&I)"
+          },
+          {
+            "key": "employeeWellbeing",
+            "label": "Phúc lợi & Sức khỏe Nhân viên"
+          }
+        ]
+      },
+      {
+        "groupKey": "communityRelated",
+        "groupLabel": "Liên quan đến Cộng đồng",
+        "subtopics": [
+          {
+            "key": "communityDevelopment",
+            "label": "Đầu tư Tác động & Phát triển Cộng đồng"
+          }
+        ]
+      }
+    ]
+  },
+  "G": {
+    "categoryLabel": "Quản trị (Governance)",
+    "topics": [
+      {
+        "key": "systemicRisk",
+        "label": "Quản lý Rủi ro Hệ thống"
+      },
+      {
+        "key": "businessEthics",
+        "label": "Đạo đức Kinh doanh & Văn hóa Doanh nghiệp",
+        "subtopics": [
+          {
+            "key": "corporateCulture",
+            "label": "Văn hóa Liêm chính"
+          },
+          {
+            "key": "compensation",
+            "label": "Cơ chế Thưởng phạt (Liên quan đến rủi ro)"
+          }
+        ]
+      },
+      {
+        "key": "amlCtff",
+        "label": "Chống Rửa tiền & Tài trợ Khủng bố (AML & CTF)"
+      },
+      {
+        "key": "antiCorruption",
+        "label": "Chống Tham nhũng & Hối lộ"
+      },
+      {
+        "key": "boardGovernance",
+        "label": "Cấu trúc & Giám sát của Hội đồng Quản trị",
+        "subtopics": [
+          {
+            "key": "boardIndependence",
+            "label": "Tính độc lập của HĐQT"
+          },
+          {
+            "key": "boardOversight",
+            "label": "Năng lực giám sát rủi ro (Khí hậu, An ninh mạng)"
+          }
+        ]
+      },
+      {
+        "key": "transparency",
+        "label": "Minh bạch & Vận động Hành lang"
+      }
+    ]
+  }
+}
