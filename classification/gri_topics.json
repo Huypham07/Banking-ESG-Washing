@@ -1,151 +1,344 @@
 {
-  "E": {
-    "categoryLabel": "Môi trường (Environment)",
-    "topics": [
-      {
-        "key": "financedEmissions",
-        "label": "Phát thải được tài trợ"
-      },
-      {
-        "key": "climateRisk",
-        "label": "Rủi ro Khí hậu",
-        "subtopics": [
-          {
-            "key": "physicalRisk",
-            "label": "Rủi ro Vật lý"
-          },
-          {
-            "key": "transitionRisk",
-            "label": "Rủi ro Chuyển đổi"
-          }
-        ]
-      },
-      {
-        "key": "sustainableFinance",
-        "label": "Cơ hội & Tài chính Bền vững",
-        "subtopics": [
-          {
-            "key": "greenFinancing",
-            "label": "Tài chính Xanh"
-          },
-          {
-            "key": "greenBonds",
-            "label": "Trái phiếu Xanh/Xã hội/Bền vững"
-          }
-        ]
-      },
-      {
-        "key": "operationalFootprint",
-        "label": "Dấu chân Hoạt động"
-      },
-      {
-        "key": "biodiversity",
-        "label": "Vốn Tự nhiên & Đa dạng Sinh học"
-      }
-    ]
-  },
-  "S": {
-    "categoryLabel": "Xã hội (Social)",
-    "topics": [
-      {
-        "groupKey": "customerRelated",
-        "groupLabel": "Liên quan đến Khách hàng",
-        "subtopics": [
-          {
-            "key": "financialInclusion",
-            "label": "Tài chính Toàn diện"
-          },
-          {
-            "key": "dataSecurity",
-            "label": "Bảo mật Dữ liệu & Quyền riêng tư"
-          },
-          {
-            "key": "responsibleSelling",
-            "label": "Bán hàng Có trách nhiệm & Bảo vệ Người tiêu dùng"
-          },
-          {
-            "key": "accessAndAffordability",
-            "label": "Tiếp cận và Khả năng chi trả"
-          }
-        ]
-      },
-      {
-        "groupKey": "employeeRelated",
-        "groupLabel": "Liên quan đến Nhân viên",
-        "subtopics": [
-          {
-            "key": "talentManagement",
-            "label": "Thu hút & Giữ chân Nhân tài"
-          },
-          {
-            "key": "dei",
-            "label": "Đa dạng, Công bằng & Hòa nhập (DE&I)"
-          },
-          {
-            "key": "employeeWellbeing",
-            "label": "Phúc lợi & Sức khỏe Nhân viên"
-          }
-        ]
-      },
-      {
-        "groupKey": "communityRelated",
-        "groupLabel": "Liên quan đến Cộng đồng",
-        "subtopics": [
-          {
-            "key": "communityDevelopment",
-            "label": "Đầu tư Tác động & Phát triển Cộng đồng"
-          }
-        ]
-      }
-    ]
-  },
-  "G": {
-    "categoryLabel": "Quản trị (Governance)",
-    "topics": [
-      {
-        "key": "systemicRisk",
-        "label": "Quản lý Rủi ro Hệ thống"
-      },
-      {
-        "key": "businessEthics",
-        "label": "Đạo đức Kinh doanh & Văn hóa Doanh nghiệp",
-        "subtopics": [
-          {
-            "key": "corporateCulture",
-            "label": "Văn hóa Liêm chính"
-          },
-          {
-            "key": "compensation",
-            "label": "Cơ chế Thưởng phạt (Liên quan đến rủi ro)"
-          }
-        ]
-      },
-      {
-        "key": "amlCtff",
-        "label": "Chống Rửa tiền & Tài trợ Khủng bố (AML & CTF)"
-      },
-      {
-        "key": "antiCorruption",
-        "label": "Chống Tham nhũng & Hối lộ"
-      },
-      {
-        "key": "boardGovernance",
-        "label": "Cấu trúc & Giám sát của Hội đồng Quản trị",
-        "subtopics": [
-          {
-            "key": "boardIndependence",
-            "label": "Tính độc lập của HĐQT"
-          },
-          {
-            "key": "boardOversight",
-            "label": "Năng lực giám sát rủi ro (Khí hậu, An ninh mạng)"
-          }
-        ]
-      },
-      {
-        "key": "transparency",
-        "label": "Minh bạch & Vận động Hành lang"
-      }
-    ]
-  }
+  "Environment": [
+    {
+      "gri_code": "GRI 301",
+      "topic_name": "Materials",
+      "topic_name_vi": "Nguyên vật liệu",
+      "description": "Reports on the organization's use of materials, particularly non-renewable materials and recycled input materials.",
+      "description_vi": "Báo cáo về việc sử dụng nguyên vật liệu của tổ chức, đặc biệt là nguyên liệu không tái tạo và nguyên liệu đầu vào tái chế.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Low direct impact for banks (mainly paper and office supplies). Moderate indirect impact through financing material-intensive industries like manufacturing, construction, and mining. Relevant for assessing circular economy opportunities.",
+      "banking_relevance_vi": "Tác động trực tiếp thấp đối với ngân hàng (chủ yếu là giấy và văn phòng phẩm). Tác động gián tiếp ở mức vừa phải thông qua tài trợ các ngành sử dụng nhiều nguyên vật liệu như sản xuất, xây dựng và khai thác mỏ. Có liên quan đến việc đánh giá các cơ hội trong nền kinh tế tuần hoàn.",
+      "sub_topics": ["Sustainable Procurement", "Circular Economy", "Paper Consumption"],
+      "sub_topics_vi": ["Mua sắm Bền vững", "Kinh tế Tuần hoàn", "Tiêu thụ Giấy"],
+      "keywords": ["material consumption", "raw materials", "recycled content", "packaging", "circular economy"],
+      "keywords_vi": ["tiêu thụ nguyên vật liệu", "nguyên liệu thô", "nội dung tái chế", "bao bì", "kinh tế tuần hoàn"]
+    },
+    {
+      "gri_code": "GRI 302",
+      "topic_name": "Energy",
+      "topic_name_vi": "Năng lượng",
+      "description": "Reports on the organization's impacts related to energy consumption within and outside the organization, energy efficiency, and reduction initiatives.",
+      "description_vi": "Báo cáo về các tác động của tổ chức liên quan đến tiêu thụ năng lượng trong và ngoài tổ chức, hiệu quả năng lượng và các sáng kiến giảm thiểu.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Moderate impact through direct energy consumption in offices and data centers (operational emissions). High indirect impact through financing energy-intensive industries. This topic is a key component of the broader Climate Change theme.",
+      "banking_relevance_vi": "Tác động ở mức vừa phải thông qua tiêu thụ năng lượng trực tiếp tại văn phòng và trung tâm dữ liệu (phát thải hoạt động). Tác động gián tiếp cao thông qua tài trợ các ngành tiêu thụ nhiều năng lượng. Chủ đề này là thành phần chính trong chủ đề Biến đổi Khí hậu rộng hơn.",
+      "sub_topics": ["Operational Energy Use", "Energy Efficiency"],
+      "sub_topics_vi": ["Sử dụng Năng lượng Hoạt động", "Hiệu quả Năng lượng"],
+      "keywords": ["energy consumption", "electricity usage", "heating", "cooling", "data center", "PUE", "renewable energy", "energy efficiency", "scope 2 emissions"],
+      "keywords_vi": ["tiêu thụ năng lượng", "sử dụng điện", "sưởi ấm", "làm mát", "trung tâm dữ liệu", "PUE", "năng lượng tái tạo", "hiệu quả năng lượng", "phát thải phạm vi 2"]
+    },
+    {
+      "gri_code": "GRI 303",
+      "topic_name": "Water and Effluents",
+      "topic_name_vi": "Nước và Nước thải",
+      "description": "Reports on the organization's impacts related to water as a shared resource, including water withdrawal, consumption, and discharge.",
+      "description_vi": "Báo cáo về các tác động của tổ chức liên quan đến nước như một tài nguyên chung, bao gồm việc lấy nước, tiêu thụ và xả thải.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Low direct impact from operational water use. High indirect impact through financing projects and companies in water-intensive sectors like agriculture, mining, and manufacturing. Relevant for project finance due diligence.",
+      "banking_relevance_vi": "Tác động trực tiếp thấp từ việc sử dụng nước hoạt động. Tác động gián tiếp cao thông qua tài trợ các dự án và công ty trong các lĩnh vực sử dụng nhiều nước như nông nghiệp, khai thác mỏ và sản xuất. Có liên quan đến thẩm định tài chính dự án.",
+      "sub_topics": ["Water Stewardship", "Water Risk Management"],
+      "sub_topics_vi": ["Quản trị Tài nguyên Nước", "Quản lý Rủi ro Nước"],
+      "keywords": ["water withdrawal", "water consumption", "water discharge", "effluents", "water stress", "water risk", "project finance"],
+      "keywords_vi": ["lấy nước", "tiêu thụ nước", "xả nước thải", "nước thải", "khan hiếm nước", "rủi ro nước", "tài chính dự án"]
+    },
+    {
+      "gri_code": "GRI 304",
+      "topic_name": "Biodiversity",
+      "topic_name_vi": "Đa dạng sinh học",
+      "description": "Reports on the organization's impacts on biodiversity, including operations in or near protected areas and areas of high biodiversity value.",
+      "description_vi": "Báo cáo về các tác động của tổ chức đối với đa dạng sinh học, bao gồm các hoạt động trong hoặc gần các khu vực được bảo vệ và các khu vực có giá trị đa dạng sinh học cao.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Significant indirect impact through financing activities that can lead to deforestation, habitat destruction, or ecosystem degradation (e.g., agriculture, mining, infrastructure). A key emerging risk area for banks.",
+      "banking_relevance_vi": "Tác động gián tiếp đáng kể thông qua các hoạt động tài trợ có thể dẫn đến phá rừng, phá hủy môi trường sống hoặc suy thoái hệ sinh thái (ví dụ: nông nghiệp, khai thác mỏ, cơ sở hạ tầng). Đây là lĩnh vực rủi ro mới nổi quan trọng đối với ngân hàng.",
+      "sub_topics": ["Deforestation Risk", "Ecosystem Services", "Nature-based Solutions"],
+      "sub_topics_vi": ["Rủi ro Phá rừng", "Dịch vụ Hệ sinh thái", "Giải pháp Dựa trên Thiên nhiên"],
+      "keywords": ["biodiversity", "deforestation", "habitat protection", "protected areas", "ecosystem", "natural capital"],
+      "keywords_vi": ["đa dạng sinh học", "phá rừng", "bảo vệ môi trường sống", "khu vực bảo vệ", "hệ sinh thái", "vốn tự nhiên"]
+    },
+    {
+      "gri_code": "GRI 305",
+      "topic_name": "Emissions",
+      "topic_name_vi": "Phát thải",
+      "description": "Reports on the organization's air emissions, focusing on Greenhouse Gas (GHG) emissions (Scope 1, 2, and 3), but also including ozone-depleting substances and other significant air emissions.",
+      "description_vi": "Báo cáo về phát thải khí của tổ chức, tập trung vào phát thải Khí nhà kính (GHG) (Phạm vi 1, 2 và 3), đồng thời bao gồm cả các chất làm suy giảm tầng ozone và các phát thải khí đáng kể khác.",
+      "is_material_for_banking": true,
+      "banking_relevance": "The most critical environmental topic for banks. Low direct impact from Scope 1 & 2 (operations). Immense indirect impact via Scope 3, Category 15 (financed emissions), which represents the carbon footprint of the bank's loan and investment portfolio.",
+      "banking_relevance_vi": "Chủ đề môi trường quan trọng nhất đối với ngân hàng. Tác động trực tiếp thấp từ Phạm vi 1 & 2 (hoạt động). Tác động gián tiếp khổng lồ thông qua Phạm vi 3, Hạng mục 15 (phát thải tài trợ), đại diện cho dấu chân carbon của danh mục cho vay và đầu tư của ngân hàng.",
+      "sub_topics": ["Climate Change", "Financed Emissions", "Carbon Footprint", "Net Zero Commitment"],
+      "sub_topics_vi": ["Biến đổi Khí hậu", "Phát thải Tài trợ", "Dấu chân Carbon", "Cam kết Phát thải Ròng bằng Không"],
+      "keywords": ["GHG emissions", "scope 1", "scope 2", "scope 3", "financed emissions", "carbon footprint", "climate change", "net zero"],
+      "keywords_vi": ["phát thải GHG", "phạm vi 1", "phạm vi 2", "phạm vi 3", "phát thải tài trợ", "dấu chân carbon", "biến đổi khí hậu", "phát thải ròng bằng không"]
+    },
+    {
+      "gri_code": "GRI 306",
+      "topic_name": "Waste",
+      "topic_name_vi": "Chất thải",
+      "description": "Reports on the organization's impacts related to waste generation and the management of significant waste-related impacts, including diversion from disposal.",
+      "description_vi": "Báo cáo về các tác động của tổ chức liên quan đến việc tạo ra chất thải và quản lý các tác động đáng kể liên quan đến chất thải, bao gồm cả việc chuyển hướng từ tiêu hủy.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Low direct impact from operational waste (e.g., paper, e-waste). Indirect impact through financing companies in waste-intensive sectors and opportunities in financing the circular economy. The draft standard recommends reporting on client engagement on waste.",
+      "banking_relevance_vi": "Tác động trực tiếp thấp từ chất thải hoạt động (ví dụ: giấy, rác thải điện tử). Tác động gián tiếp thông qua tài trợ các công ty trong các lĩnh vực tạo nhiều chất thải và cơ hội tài trợ cho nền kinh tế tuần hoàn. Tiêu chuẩn dự thảo khuyến nghị báo cáo về sự tham gia của khách hàng về chất thải.",
+      "sub_topics": ["Waste Management", "Circular Economy", "E-waste"],
+      "sub_topics_vi": ["Quản lý Chất thải", "Kinh tế Tuần hoàn", "Rác thải Điện tử"],
+      "keywords": ["waste generation", "recycling", "disposal", "landfill", "hazardous waste", "e-waste", "circular economy"],
+      "keywords_vi": ["tạo ra chất thải", "tái chế", "tiêu hủy", "bãi chôn lấp", "chất thải nguy hại", "rác thải điện tử", "kinh tế tuần hoàn"]
+    },
+    {
+      "gri_code": "GRI 307",
+      "topic_name": "Environmental Compliance",
+      "topic_name_vi": "Tuân thủ Môi trường",
+      "description": "Reports on non-compliance with environmental laws and regulations.",
+      "description_vi": "Báo cáo về việc không tuân thủ các luật và quy định về môi trường.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Important for demonstrating robust risk management. Non-compliance can result in fines and reputational damage. Also relevant for assessing the compliance of clients in project finance deals.",
+      "banking_relevance_vi": "Quan trọng để thể hiện quản lý rủi ro mạnh mẽ. Việc không tuân thủ có thể dẫn đến phạt tiền và thiệt hại về danh tiếng. Cũng có liên quan đến việc đánh giá tuân thủ của khách hàng trong các giao dịch tài chính dự án.",
+      "sub_topics": ["Regulatory Compliance", "Environmental Risk Management"],
+      "sub_topics_vi": ["Tuân thủ Quy định", "Quản lý Rủi ro Môi trường"],
+      "keywords": ["environmental compliance", "fines", "penalties", "sanctions", "non-compliance", "environmental regulations"],
+      "keywords_vi": ["tuân thủ môi trường", "tiền phạt", "hình phạt", "trừng phạt", "không tuân thủ", "quy định môi trường"]
+    },
+    {
+      "gri_code": "GRI 308",
+      "topic_name": "Supplier Environmental Assessment",
+      "topic_name_vi": "Đánh giá Môi trường Nhà cung cấp",
+      "description": "Reports on the use of environmental criteria in supplier screening and actions taken to address negative environmental impacts in the supply chain.",
+      "description_vi": "Báo cáo về việc sử dụng các tiêu chí môi trường trong sàng lọc nhà cung cấp và các hành động được thực hiện để giải quyết các tác động tiêu cực đến môi trường trong chuỗi cung ứng.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Relevant for procurement of services and goods, especially for large contracts like IT infrastructure (data centers) and corporate facilities. Part of responsible supply chain management.",
+      "banking_relevance_vi": "Có liên quan đến việc mua sắm dịch vụ và hàng hóa, đặc biệt là các hợp đồng lớn như cơ sở hạ tầng CNTT (trung tâm dữ liệu) và cơ sở doanh nghiệp. Là một phần của quản lý chuỗi cung ứng có trách nhiệm.",
+      "sub_topics": ["Sustainable Procurement", "Supply Chain Management"],
+      "sub_topics_vi": ["Mua sắm Bền vững", "Quản lý Chuỗi cung ứng"],
+      "keywords": ["supplier assessment", "supply chain", "procurement", "screening criteria", "supplier environmental performance"],
+      "keywords_vi": ["đánh giá nhà cung cấp", "chuỗi cung ứng", "mua sắm", "tiêu chí sàng lọc", "hiệu suất môi trường nhà cung cấp"]
+    }
+  ],
+  "Social": [
+    {
+      "gri_code": "GRI 401",
+      "topic_name": "Employment",
+      "topic_name_vi": "Việc làm",
+      "description": "Reports on new employee hires and employee turnover, benefits provided to full-time employees, and parental leave.",
+      "description_vi": "Báo cáo về việc tuyển dụng nhân viên mới và tỷ lệ nghỉ việc của nhân viên, các phúc lợi cung cấp cho nhân viên toàn thời gian và nghỉ thai sản.",
+      "is_material_for_banking": true,
+      "banking_relevance": "A key topic for attracting and retaining talent in a competitive labor market. Focus on competitive benefits packages, flexible work arrangements, and support for work-life balance.",
+      "banking_relevance_vi": "Chủ đề quan trọng để thu hút và giữ chân nhân tài trong thị trường lao động cạnh tranh. Tập trung vào các gói phúc lợi cạnh tranh, sắp xếp làm việc linh hoạt và hỗ trợ cân bằng công việc-cuộc sống.",
+      "sub_topics": ["Talent Attraction", "Employee Retention", "Benefits and Compensation"],
+      "sub_topics_vi": ["Thu hút Nhân tài", "Giữ chân Nhân viên", "Phúc lợi và Thù lao"],
+      "keywords": ["employment", "new hires", "turnover", "employee benefits", "parental leave", "full-time", "part-time", "talent management"],
+      "keywords_vi": ["việc làm", "tuyển dụng mới", "tỷ lệ nghỉ việc", "phúc lợi nhân viên", "nghỉ thai sản", "toàn thời gian", "bán thời gian", "quản lý nhân tài"]
+    },
+    {
+      "gri_code": "GRI 403",
+      "topic_name": "Occupational Health and Safety",
+      "topic_name_vi": "Sức khỏe và An toàn Lao động",
+      "description": "Reports on the management of occupational health and safety (OHS), including hazard identification, worker training, and work-related injuries.",
+      "description_vi": "Báo cáo về quản lý sức khỏe và an toàn lao động (OHS), bao gồm nhận diện mối nguy, đào tạo người lao động và chấn thương liên quan đến công việc.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Focuses on employee well-being, mental health, and creating a safe work environment, which are important for a service-based industry. Less about physical hazards and more about psychosocial risks.",
+      "banking_relevance_vi": "Tập trung vào phúc lợi nhân viên, sức khỏe tinh thần và tạo ra môi trường làm việc an toàn, điều này quan trọng đối với ngành dịch vụ. Ít liên quan đến các mối nguy vật lý và nhiều hơn về các rủi ro tâm lý xã hội.",
+      "sub_topics": ["Employee Well-being", "Mental Health", "Work-life Balance"],
+      "sub_topics_vi": ["Phúc lợi Nhân viên", "Sức khỏe Tinh thần", "Cân bằng Công việc-Cuộc sống"],
+      "keywords": ["occupational health", "safety", "mental health", "well-being", "work-related injuries", "psychosocial risks"],
+      "keywords_vi": ["sức khỏe nghề nghiệp", "an toàn", "sức khỏe tinh thần", "phúc lợi", "chấn thương liên quan công việc", "rủi ro tâm lý xã hội"]
+    },
+    {
+      "gri_code": "GRI 404",
+      "topic_name": "Training and Education",
+      "topic_name_vi": "Đào tạo và Giáo dục",
+      "description": "Reports on programs for upgrading employee skills and providing transition assistance.",
+      "description_vi": "Báo cáo về các chương trình nâng cao kỹ năng nhân viên và cung cấp hỗ trợ chuyển đổi.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Crucial for a rapidly changing industry driven by digitalization and new regulations. Continuous learning and reskilling are vital for maintaining a competitive workforce.",
+      "banking_relevance_vi": "Rất quan trọng đối với một ngành đang thay đổi nhanh chóng do số hóa và các quy định mới. Học tập liên tục và đào tạo lại kỹ năng là yếu tố sống còn để duy trì đội ngũ lao động cạnh tranh.",
+      "sub_topics": ["Employee Training Programs", "Digital Skills", "Career Development"],
+      "sub_topics_vi": ["Chương trình Đào tạo Nhân viên", "Kỹ năng Số", "Phát triển Nghề nghiệp"],
+      "keywords": ["training", "education", "skill development", "reskilling", "upskilling", "career development", "performance review"],
+      "keywords_vi": ["đào tạo", "giáo dục", "phát triển kỹ năng", "đào tạo lại", "nâng cao kỹ năng", "phát triển nghề nghiệp", "đánh giá hiệu suất"]
+    },
+    {
+      "gri_code": "GRI 405",
+      "topic_name": "Diversity and Equal Opportunity",
+      "topic_name_vi": "Đa dạng và Cơ hội Bình đẳng",
+      "description": "Reports on the diversity of governance bodies and employees, and the ratio of remuneration between women and men.",
+      "description_vi": "Báo cáo về sự đa dạng của các cơ quan quản trị và nhân viên, cũng như tỷ lệ thù lao giữa nam và nữ.",
+      "is_material_for_banking": true,
+      "banking_relevance": "A highly material topic. Focus on gender and minority representation in management and leadership roles, as well as addressing gender pay gaps. A diverse workforce is linked to better decision-making and innovation.",
+      "banking_relevance_vi": "Chủ đề có tính trọng yếu cao. Tập trung vào đại diện giới tính và thiểu số trong các vai trò quản lý và lãnh đạo, cũng như giải quyết khoảng cách lương theo giới tính. Đội ngũ lao động đa dạng gắn liền với việc ra quyết định tốt hơn và đổi mới.",
+      "sub_topics": ["Gender Diversity", "Pay Equity", "Inclusive Leadership"],
+      "sub_topics_vi": ["Đa dạng Giới tính", "Công bằng Thù lao", "Lãnh đạo Hòa nhập"],
+      "keywords": ["diversity", "equal opportunity", "inclusion", "gender balance", "pay gap", "women in management", "board diversity"],
+      "keywords_vi": ["đa dạng", "cơ hội bình đẳng", "hòa nhập", "cân bằng giới tính", "khoảng cách lương", "phụ nữ trong quản lý", "đa dạng hội đồng quản trị"]
+    },
+    {
+      "gri_code": "GRI 406",
+      "topic_name": "Non-discrimination",
+      "topic_name_vi": "Không phân biệt đối xử",
+      "description": "Reports on incidents of discrimination and the corrective actions taken.",
+      "description_vi": "Báo cáo về các sự cố phân biệt đối xử và các hành động khắc phục được thực hiện.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Material both for internal employment practices and external client-facing activities (e.g., fair lending). A core component of ethical conduct and risk management.",
+      "banking_relevance_vi": "Có tính trọng yếu đối với cả thực hành tuyển dụng nội bộ và các hoạt động đối mặt với khách hàng bên ngoài (ví dụ: cho vay công bằng). Thành phần cốt lõi của hành vi đạo đức và quản lý rủi ro.",
+      "sub_topics": ["Fair Lending", "Anti-discrimination Policies", "Harassment Prevention"],
+      "sub_topics_vi": ["Cho vay Công bằng", "Chính sách Chống Phân biệt đối xử", "Phòng chống Quấy rối"],
+      "keywords": ["non-discrimination", "discrimination incidents", "harassment", "corrective actions", "fair lending"],
+      "keywords_vi": ["không phân biệt đối xử", "sự cố phân biệt đối xử", "quấy rối", "hành động khắc phục", "cho vay công bằng"]
+    },
+    {
+      "gri_code": "GRI 412",
+      "topic_name": "Human Rights Assessment",
+      "topic_name_vi": "Đánh giá Nhân quyền",
+      "description": "Reports on operations subject to human rights reviews or impact assessments, and employee training on human rights.",
+      "description_vi": "Báo cáo về các hoạt động phải chịu đánh giá nhân quyền hoặc đánh giá tác động, và đào tạo nhân viên về nhân quyền.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Increasingly important, especially in project finance and corporate lending, where banks must conduct due diligence to ensure they are not financing activities linked to human rights abuses.",
+      "banking_relevance_vi": "Ngày càng quan trọng, đặc biệt trong tài chính dự án và cho vay doanh nghiệp, nơi ngân hàng phải thực hiện thẩm định để đảm bảo họ không tài trợ các hoạt động liên quan đến vi phạm nhân quyền.",
+      "sub_topics": ["Due Diligence", "Human Rights Policy", "Modern Slavery"],
+      "sub_topics_vi": ["Thẩm định", "Chính sách Nhân quyền", "Nô lệ Hiện đại"],
+      "keywords": ["human rights", "due diligence", "impact assessment", "UN Guiding Principles", "modern slavery", "child labor", "forced labor"],
+      "keywords_vi": ["nhân quyền", "thẩm định", "đánh giá tác động", "Nguyên tắc Hướng dẫn của LHQ", "nô lệ hiện đại", "lao động trẻ em", "lao động cưỡng bức"]
+    },
+    {
+      "gri_code": "GRI 413",
+      "topic_name": "Local Communities",
+      "topic_name_vi": "Cộng đồng Địa phương",
+      "description": "Reports on operations with local community engagement, impact assessments, and development programs.",
+      "description_vi": "Báo cáo về các hoạt động có sự tham gia của cộng đồng địa phương, đánh giá tác động và các chương trình phát triển.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Relevant through corporate social responsibility (CSR) programs, philanthropy, and especially through the impacts of financed projects on local communities and Indigenous Peoples.",
+      "banking_relevance_vi": "Có liên quan thông qua các chương trình trách nhiệm xã hội doanh nghiệp (CSR), từ thiện, và đặc biệt thông qua các tác động của các dự án được tài trợ đối với cộng đồng địa phương và Dân tộc Bản địa.",
+      "sub_topics": ["Community Investment", "Social Impact", "Indigenous Rights"],
+      "sub_topics_vi": ["Đầu tư Cộng đồng", "Tác động Xã hội", "Quyền Dân tộc Bản địa"],
+      "keywords": ["local communities", "community engagement", "social investment", "indigenous peoples", "CSR", "philanthropy"],
+      "keywords_vi": ["cộng đồng địa phương", "tham gia cộng đồng", "đầu tư xã hội", "dân tộc bản địa", "CSR", "từ thiện"]
+    },
+    {
+      "gri_code": "GRI 416",
+      "topic_name": "Customer Health and Safety",
+      "topic_name_vi": "Sức khỏe Tài chính và Hòa nhập",
+      "description": "Reports on the assessment of health and safety impacts of product and service categories.",
+      "description_vi": "Báo cáo về đánh giá các tác động về sức khỏe và an toàn của các loại sản phẩm và dịch vụ.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Interpreted in the banking context as 'Financial Health and Inclusion'. It's about designing products that are responsible, fair, and promote the financial well-being of customers, avoiding predatory practices.",
+      "banking_relevance_vi": "Được hiểu trong bối cảnh ngân hàng là 'Sức khỏe Tài chính và Hòa nhập'. Đây là về việc thiết kế các sản phẩm có trách nhiệm, công bằng và thúc đẩy phúc lợi tài chính của khách hàng, tránh các thực hành bóc lột.",
+      "sub_topics": ["Financial Inclusion", "Responsible Lending", "Product Suitability"],
+      "sub_topics_vi": ["Hòa nhập Tài chính", "Cho vay Có trách nhiệm", "Sự Phù hợp Sản phẩm"],
+      "keywords": ["customer health", "financial inclusion", "financial literacy", "responsible lending", "predatory lending", "vulnerable customers", "product suitability"],
+      "keywords_vi": ["sức khỏe khách hàng", "hòa nhập tài chính", "hiểu biết tài chính", "cho vay có trách nhiệm", "cho vay bóc lột", "khách hàng dễ bị tổn thương", "sự phù hợp sản phẩm"]
+    },
+    {
+      "gri_code": "GRI 417",
+      "topic_name": "Marketing and Labeling",
+      "topic_name_vi": "Tiếp thị và Ghi nhãn",
+      "description": "Reports on compliance with regulations concerning product and service information and marketing communications.",
+      "description_vi": "Báo cáo về tuân thủ các quy định liên quan đến thông tin sản phẩm và dịch vụ cũng như truyền thông tiếp thị.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Ensuring marketing materials are clear, transparent, and not misleading, especially regarding fees, interest rates, and risks. Important for consumer protection and trust.",
+      "banking_relevance_vi": "Đảm bảo các tài liệu tiếp thị rõ ràng, minh bạch và không gây hiểu lầm, đặc biệt về phí, lãi suất và rủi ro. Quan trọng đối với bảo vệ người tiêu dùng và niềm tin.",
+      "sub_topics": ["Transparent Communication", "Consumer Protection", "Advertising Standards"],
+      "sub_topics_vi": ["Truyền thông Minh bạch", "Bảo vệ Người tiêu dùng", "Tiêu chuẩn Quảng cáo"],
+      "keywords": ["marketing", "labeling", "advertising", "transparency", "misleading information", "consumer protection"],
+      "keywords_vi": ["tiếp thị", "ghi nhãn", "quảng cáo", "minh bạch", "thông tin gây hiểu lầm", "bảo vệ người tiêu dùng"]
+    },
+    {
+      "gri_code": "GRI 418",
+      "topic_name": "Customer Privacy",
+      "topic_name_vi": "Quyền riêng tư của Khách hàng",
+      "description": "Reports on substantiated complaints concerning breaches of customer privacy and losses of customer data.",
+      "description_vi": "Báo cáo về các khiếu nại có căn cứ liên quan đến vi phạm quyền riêng tư của khách hàng và mất dữ liệu khách hàng.",
+      "is_material_for_banking": true,
+      "banking_relevance": "A highly material topic. Banks handle vast amounts of sensitive personal and financial data. Protecting this data is a critical operational and reputational risk.",
+      "banking_relevance_vi": "Chủ đề có tính trọng yếu cao. Ngân hàng xử lý lượng lớn dữ liệu cá nhân và tài chính nhạy cảm. Bảo vệ dữ liệu này là rủi ro hoạt động và danh tiếng quan trọng.",
+      "sub_topics": ["Data Protection", "Cybersecurity", "Privacy Management"],
+      "sub_topics_vi": ["Bảo vệ Dữ liệu", "An ninh Mạng", "Quản lý Quyền riêng tư"],
+      "keywords": ["customer privacy", "data protection", "data breach", "GDPR", "cybersecurity", "personal data", "data security"],
+      "keywords_vi": ["quyền riêng tư khách hàng", "bảo vệ dữ liệu", "vi phạm dữ liệu", "GDPR", "an ninh mạng", "dữ liệu cá nhân", "bảo mật dữ liệu"]
+    }
+  ],
+  "Governance": [
+    {
+      "gri_code": "GRI 201",
+      "topic_name": "Economic Performance",
+      "topic_name_vi": "Hiệu quả Kinh tế",
+      "description": "Reports on direct economic value generated and distributed, financial implications of climate change, defined benefit plan obligations, and financial assistance from government.",
+      "description_vi": "Báo cáo về giá trị kinh tế trực tiếp được tạo ra và phân phối, ý nghĩa tài chính của biến đổi khí hậu, nghĩa vụ kế hoạch phúc lợi xác định và hỗ trợ tài chính từ chính phủ.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Core to banking. This topic addresses the bank's financial health, its contribution to the broader economy, and how climate risks might impact its business model (e.g., stranded assets).",
+      "banking_relevance_vi": "Cốt lõi của ngân hàng. Chủ đề này đề cập đến sức khỏe tài chính của ngân hàng, đóng góp của nó cho nền kinh tế rộng lớn hơn và cách các rủi ro khí hậu có thể ảnh hưởng đến mô hình kinh doanh của nó (ví dụ: tài sản mắc kẹt).",
+      "sub_topics": ["Financial Performance", "Economic Contribution", "Climate Financial Risk"],
+      "sub_topics_vi": ["Hiệu quả Tài chính", "Đóng góp Kinh tế", "Rủi ro Tài chính Khí hậu"],
+      "keywords": ["economic performance", "financial performance", "economic value", "climate risk", "stranded assets", "profitability"],
+      "keywords_vi": ["hiệu quả kinh tế", "hiệu quả tài chính", "giá trị kinh tế", "rủi ro khí hậu", "tài sản mắc kẹt", "khả năng sinh lời"]
+    },
+    {
+      "gri_code": "GRI 205",
+      "topic_name": "Anti-corruption",
+      "topic_name_vi": "Chống tham nhũng",
+      "description": "Reports on operations assessed for corruption-related risks, and communication and training on anti-corruption policies.",
+      "description_vi": "Báo cáo về các hoạt động được đánh giá về rủi ro liên quan đến tham nhũng, và truyền thông cũng như đào tạo về chính sách chống tham nhũng.",
+      "is_material_for_banking": true,
+      "banking_relevance": "A cornerstone of governance for banks. Involves policies and procedures to prevent bribery, corruption, and illicit financial flows, both internally and in client transactions.",
+      "banking_relevance_vi": "Nền tảng của quản trị đối với ngân hàng. Bao gồm các chính sách và thủ tục để ngăn chặn hối lộ, tham nhũng và dòng tiền bất hợp pháp, cả bên trong lẫn trong các giao dịch khách hàng.",
+      "sub_topics": ["Anti-bribery", "Ethics and Integrity", "Whistleblowing"],
+      "sub_topics_vi": ["Chống Hối lộ", "Đạo đức và Liêm chính", "T고phát Nội bộ"],
+      "keywords": ["anti-corruption", "bribery", "ethics", "compliance", "risk assessment", "whistleblower", "code of conduct"],
+      "keywords_vi": ["chống tham nhũng", "hối lộ", "đạo đức", "tuân thủ", "đánh giá rủi ro", "người tố giác", "quy tắc ứng xử"]
+    },
+    {
+      "gri_code": "GRI 206",
+      "topic_name": "Anti-competitive Behavior",
+      "topic_name_vi": "Hành vi Chống cạnh tranh",
+      "description": "Reports on legal actions for anti-competitive behavior, anti-trust, and monopoly practices.",
+      "description_vi": "Báo cáo về các hành động pháp lý đối với hành vi chống cạnh tranh, chống độc quyền và thực hành độc quyền.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Material due to historical industry issues (e.g., LIBOR scandal). Strong governance is needed to prevent collusion and ensure fair market practices.",
+      "banking_relevance_vi": "Có tính trọng yếu do các vấn đề lịch sử của ngành (ví dụ: bê bối LIBOR). Cần có quản trị mạnh mẽ để ngăn chặn thông đồng và đảm bảo thực hành thị trường công bằng.",
+      "sub_topics": ["Competition Law Compliance", "Market Conduct", "Fair Competition"],
+      "sub_topics_vi": ["Tuân thủ Luật Cạnh tranh", "Hành vi Thị trường", "Cạnh tranh Công bằng"],
+      "keywords": ["anti-competitive", "anti-trust", "monopoly", "competition law", "market manipulation", "collusion"],
+      "keywords_vi": ["chống cạnh tranh", "chống độc quyền", "độc quyền", "luật cạnh tranh", "thao túng thị trường", "thông đồng"]
+    },
+    {
+      "gri_code": "GRI 207",
+      "topic_name": "Tax",
+      "topic_name_vi": "Thuế",
+      "description": "Reports on the organization's approach to tax, tax governance, control, and risk management.",
+      "description_vi": "Báo cáo về cách tiếp cận của tổ chức đối với thuế, quản trị thuế, kiểm soát và quản lý rủi ro.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Tax transparency is a growing governance issue for multinational banks. It reflects the bank's approach to its fiscal responsibilities in the jurisdictions where it operates.",
+      "banking_relevance_vi": "Minh bạch thuế là một vấn đề quản trị ngày càng tăng đối với các ngân hàng đa quốc gia. Nó phản ánh cách tiếp cận của ngân hàng đối với trách nhiệm tài khóa trong các khu vực pháp lý nơi nó hoạt động.",
+      "sub_topics": ["Tax Transparency", "Tax Strategy", "Country-by-Country Reporting"],
+      "sub_topics_vi": ["Minh bạch Thuế", "Chiến lược Thuế", "Báo cáo Từng quốc gia"],
+      "keywords": ["tax", "tax governance", "tax transparency", "tax strategy", "effective tax rate", "public policy"],
+      "keywords_vi": ["thuế", "quản trị thuế", "minh bạch thuế", "chiến lược thuế", "thuế suất hiệu quả", "chính sách công"]
+    },
+    {
+      "gri_code": "GRI 415",
+      "topic_name": "Public Policy",
+      "topic_name_vi": "Chính sách Công",
+      "description": "Reports on political contributions.",
+      "description_vi": "Báo cáo về các khoản đóng góp chính trị.",
+      "is_material_for_banking": true,
+      "banking_relevance": "Banks are highly regulated and often engage in public policy dialogue. This topic governs the transparency and ethics of their lobbying activities and political contributions.",
+      "banking_relevance_vi": "Ngân hàng được quản lý chặt chẽ và thường tham gia đối thoại chính sách công. Chủ đề này điều chỉnh tính minh bạch và đạo đức của các hoạt động vận động hành lang và đóng góp chính trị của họ.",
+      "sub_topics": ["Lobbying Activities", "Political Contributions"],
+      "sub_topics_vi": ["Hoạt động Vận động Hành lang", "Đóng góp Chính trị"],
+      "keywords": ["public policy", "lobbying", "political contributions", "advocacy", "government relations"],
+      "keywords_vi": ["chính sách công", "vận động hành lang", "đóng góp chính trị", "vận động", "quan hệ chính phủ"]
+    },
+    {
+      "gri_code": "GRI 419",
+      "topic_name": "Socioeconomic Compliance",
+      "topic_name_vi": "Tuân thủ Kinh tế Xã hội",
+      "description": "Reports on non-compliance with laws and regulations in the social and economic area.",
+      "description_vi": "Báo cáo về việc không tuân thủ các luật và quy định trong lĩnh vực xã hội và kinh tế.",
+      "is_material_for_banking": true,
+      "banking_relevance": "A broad governance topic covering compliance with all non-environmental laws (e.g., consumer protection, financial regulations). It is a key indicator of the effectiveness of the bank's compliance framework.",
+      "banking_relevance_vi": "Chủ đề quản trị rộng bao gồm tuân thủ tất cả các luật phi môi trường (ví dụ: bảo vệ người tiêu dùng, quy định tài chính). Đây là chỉ số chính về hiệu quả của khung tuân thủ của ngân hàng.",
+      "sub_topics": ["Regulatory Compliance", "Consumer Protection Laws", "Financial Regulations"],
+      "sub_topics_vi": ["Tuân thủ Quy định", "Luật Bảo vệ Người tiêu dùng", "Quy định Tài chính"],
+      "keywords": ["socioeconomic compliance", "compliance", "fines", "sanctions", "regulatory breaches", "consumer protection laws"],
+      "keywords_vi": ["tuân thủ kinh tế xã hội", "tuân thủ", "tiền phạt", "trừng phạt", "vi phạm quy định", "luật bảo vệ người tiêu dùng"]
+    }
+  ]
 }
